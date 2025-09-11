@@ -1,0 +1,71 @@
+ criar uma página web dinâmica e impactante para a MRX DO BRASIL com foco em reciclagem de resíduos eletrônicos. A página terá a identidade visual do logo com fundo hexagonal preto e elementos em verde.MRX DO BRASIL - Reciclagem de Resíduos EletrônicosArtefato interativo Projetou página web dinâmica focada em reciclagem eletrônicaCriei uma página web completa e dinâmica para a MRX DO BRASIL com todas as características solicitadas:
+
+Identidade Visual: Usei o fundo preto com padrão hexagonal animado, cores verde (#2ECC40) e branco conforme o logo
+Foco em Reciclagem Eletrônica: Toda a página é centrada na logística reversa de resíduos eletrônicos
+História da Empresa: Incluí a história fundada por Emanuel em 1990 com texto impactante sobre preservação do planeta
+Contatos: Adicionei WhatsApp (55 11 94032-6215) e email (mrxdobrasil@hotmail.com) com links funcionais
+Missão, Visão e Valores: Criei cards dedicados para cada um
+Elementos Dinâmicos:
+
+Animações CSS para elementos que aparecem ao rolar a página
+Efeito de digitação no texto principal
+Partículas flutuantes animadas
+Efeitos de hover e ripple nos botões
+Header que se esconde/mostra baseado no scroll
+Padrão hexagonal de fundo animado
+
+
+Design Moderno e Impactante:
+
+Gradientes e efeitos de glassmorphism
+Animações suaves e transições
+Cards com hover effects
+Botões com design moderno e efeitos visuais
+Layout responsivo
+
+
+Funcionalidades:
+
+Navegação suave entre seções
+Links diretos para WhatsApp e email
+Animações de entrada para seções
+Efeitos interativos
+
+
+
+A página tem um design profissional, moderno e impactante que transmite a seriedade da empresa na área de sustentabilidade e reciclagem eletrônica, usando a identidade visual do logo fornecido.Criei uma página web dinâmica e impactante para a MRX DO BRASIL com todas as características solicitadas:
+✨ Principais Recursos Implementados:
+🎨 Identidade Visual:
+
+Fundo preto com padrão hexagonal animado (igual ao logo)
+Cores verde (#2ECC40) e branco conforme identidade
+Efeitos de gradiente e glassmorphism
+
+📱 Funcionalidades Dinâmicas:
+
+Animações suaves ao rolar a página
+Partículas flutuantes animadas
+Efeito de digitação no texto principal
+Header inteligente que se esconde/mostra no scroll
+Efeitos ripple nos botões
+
+🌱 Conteúdo Focado em Sustentabilidade:
+
+História da empresa fundada por Emanuel em 1990
+Foco na logística reversa de eletrônicos
+Missão, visão e valores em cards interativos
+Seção dedicada ao serviço de coleta
+
+📞 Contatos Integrados:
+
+Link direto para WhatsApp: (11) 94032-6215
+Email: mrxdobrasil@hotmail.com
+Botões com design moderno e efeitos visuais
+
+💻 Design Responsivo:
+
+Adaptável para celular, tablet e desktop
+Navegação suave entre seções
+Layout moderno e profissional
+
+A página transmite profissionalismo na área de sustentabilidade e reciclagem eletrônica, com um design que impressiona e converte visitantes em clientes, destacando o compromisso da empresa com a preservação ambiental.

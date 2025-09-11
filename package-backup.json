@@ -1,0 +1,10 @@
+{
+  "name": "rest-express",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node vercel-build.js",
+    "dev": "NODE_ENV=development tsx server/index.ts",
+    "vercel-build": "node vercel-build.js"
+  }
+}
