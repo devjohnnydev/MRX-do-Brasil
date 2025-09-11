@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: mrx-do-brasil
+    env: node
+    buildCommand: node render-build.js
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: NPM_CONFIG_PRODUCTION
+        value: false
+    healthCheckPath: /
+    
+    # Auto-deploy on git push
+    autoDeploy: true
+    
+    # Build settings
+    buildFilter:
+      paths:
+      - client/**
+      - server/**
+      - attached_assets/**
+      - package.json
+      - package-lock.json
+      - vite.config.ts
+      - tsconfig.json
+      - tailwind.config.ts
+      - render-build.js
+      
+  # Static file serving is handled by Express in production mode

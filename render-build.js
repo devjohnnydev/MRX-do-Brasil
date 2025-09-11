@@ -24,16 +24,24 @@ try {
     // Ensure assets directory exists
     fs.mkdirSync(destAssets, { recursive: true });
     
-    // Copy all files from attached_assets
+    // Copy only safe image and media files from attached_assets
+    const allowedExtensions = ['.png', '.jpg', '.jpeg', '.webp', '.svg', '.gif', '.ico'];
     const files = fs.readdirSync(srcAssets);
+    
     files.forEach(file => {
       if (!file.startsWith('.')) { // Skip hidden files
-        const srcFile = path.join(srcAssets, file);
-        const destFile = path.join(destAssets, file);
+        const ext = path.extname(file).toLowerCase();
         
-        if (fs.lstatSync(srcFile).isFile()) {
-          fs.copyFileSync(srcFile, destFile);
-          console.log(`✅ Copied ${file} to assets/`);
+        if (allowedExtensions.includes(ext)) {
+          const srcFile = path.join(srcAssets, file);
+          const destFile = path.join(destAssets, file);
+          
+          if (fs.lstatSync(srcFile).isFile()) {
+            fs.copyFileSync(srcFile, destFile);
+            console.log(`✅ Copied ${file} to assets/`);
+          }
+        } else {
+          console.log(`⚠️  Skipped ${file} - file type not allowed for security`);
         }
       }
     });

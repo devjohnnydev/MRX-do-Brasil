@@ -53,6 +53,11 @@ app.use((req, res, next) => {
     const assetsPath = path.resolve(import.meta.dirname, "..", "attached_assets");
     app.use("/assets", express.static(assetsPath));
     log("Assets served from: " + assetsPath);
+  } else {
+    // In production, assets are copied to dist/public/assets by build script
+    const assetsPath = path.resolve(import.meta.dirname, "public", "assets");
+    app.use("/assets", express.static(assetsPath));
+    log("Production assets served from: " + assetsPath);
   }
 
   // importantly only setup vite in development and after
