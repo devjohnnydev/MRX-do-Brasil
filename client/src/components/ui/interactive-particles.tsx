@@ -20,6 +20,12 @@ export default function InteractiveParticles() {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
+    // Check if user prefers reduced motion
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) {
+      return; // Skip all animations
+    }
+
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
@@ -86,7 +92,11 @@ export default function InteractiveParticles() {
       mouseRef.current.x = e.clientX - rect.left;
       mouseRef.current.y = e.clientY - rect.top;
       
-      if (Math.random() < 0.3) {
+      // Throttle particle creation on mobile
+      const isMobile = window.innerWidth < 768;
+      const createChance = isMobile ? 0.15 : 0.3;
+      
+      if (Math.random() < createChance) {
         particlesRef.current.push(createParticle(mouseRef.current.x, mouseRef.current.y));
       }
     };
@@ -109,8 +119,11 @@ export default function InteractiveParticles() {
     // Initialize
     resizeCanvas();
     
-    // Add some initial particles
-    for (let i = 0; i < 20; i++) {
+    // Add some initial particles (fewer on mobile)
+    const isMobile = window.innerWidth < 768;
+    const particleCount = isMobile ? 10 : 20;
+    
+    for (let i = 0; i < particleCount; i++) {
       particlesRef.current.push(
         createParticle(
           Math.random() * canvas.width,

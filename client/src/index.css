@@ -98,6 +98,30 @@
   51%, 100% { border-color: transparent; }
 }
 
+/* Mobile Performance Optimizations */
+@media (max-width: 768px) {
+  .hex-pattern {
+    background-size: 200px 200px;
+  }
+  
+  .hex-pattern::before {
+    animation-duration: 35s; /* Slower animation on mobile */
+  }
+  
+  .interactive-particle {
+    animation-duration: 10s; /* Slightly slower particles on mobile */
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hex-pattern::before,
+  .interactive-particle,
+  .floating,
+  .typing-text {
+    animation: none;
+  }
+}
+
 /* Smooth Scroll */
 html {
   scroll-behavior: smooth;
