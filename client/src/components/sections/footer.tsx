@@ -66,7 +66,7 @@ export default function Footer() {
                   </svg>
                 </a>
                 <a 
-                  href="https://www.facebook.com/mrxdobrasil" 
+                  href="https://www.facebook.com/profile.php?id=61580861046474" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
