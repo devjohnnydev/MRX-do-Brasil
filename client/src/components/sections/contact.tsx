@@ -52,7 +52,7 @@ ${values.message ? `• Observações: ${values.message}` : ''}
 
 Aguardo contato para agendamento da coleta. Obrigado!`;
 
-    const whatsappUrl = `https://wa.me/5511940326215?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5511949085164?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
     
     toast({
@@ -248,9 +248,9 @@ Aguardo contato para agendamento da coleta. Obrigado!`;
                         <p className="text-muted-foreground">Atendimento imediato</p>
                       </div>
                     </div>
-                    <p className="text-lg mb-4">(11) 94032-6215</p>
+                    <p className="text-lg mb-4">(11) 94908-5164</p>
                     <a 
-                      href="https://wa.me/5511940326215" 
+                      href="https://wa.me/5511949085164" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold ripple hover:bg-accent transition-colors inline-flex items-center"
@@ -303,15 +303,7 @@ Aguardo contato para agendamento da coleta. Obrigado!`;
                     <div className="space-y-2">
                       <div className="flex justify-between">
                         <span>Segunda - Sexta:</span>
-                        <span className="text-primary font-medium">08:00 - 18:00</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span>Sábado:</span>
-                        <span className="text-primary font-medium">08:00 - 12:00</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span>Domingo:</span>
-                        <span className="text-muted-foreground">Fechado</span>
+                        <span className="text-primary font-medium">07:30 - 16:30</span>
                       </div>
                     </div>
                   </CardContent>
