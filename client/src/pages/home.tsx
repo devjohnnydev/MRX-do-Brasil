@@ -143,7 +143,7 @@ export default function Home() {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
-                  href="https://wa.me/5511940326215?text=Olá! Tenho resíduos eletrônicos para venda e gostaria de negociar com a área comercial da MRX do Brasil." 
+                  href="https://wa.me/5511949085164?text=Olá! Tenho resíduos eletrônicos para venda e gostaria de negociar com a área comercial da MRX do Brasil." 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-primary text-primary-foreground px-8 py-4 rounded-lg font-semibold ripple hover:bg-accent transition-colors inline-flex items-center justify-center"
@@ -194,7 +194,7 @@ export default function Home() {
       
       {/* WhatsApp Floating Button */}
       <a 
-        href="https://wa.me/5511940326215" 
+        href="https://wa.me/5511949085164" 
         target="_blank" 
         rel="noopener noreferrer"
         className="whatsapp-floating floating"

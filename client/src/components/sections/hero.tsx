@@ -80,7 +80,7 @@ export default function Hero() {
               Nossa História
             </button>
             <a 
-              href="https://wa.me/5511940326215" 
+              href="https://wa.me/5511949085164" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-card/50 backdrop-blur-sm border border-border text-foreground px-8 py-4 rounded-lg font-semibold text-lg ripple hover:bg-card transition-colors inline-flex items-center justify-center"

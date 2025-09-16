@@ -86,7 +86,7 @@ export default function Services() {
                           </div>
                           <div className="flex gap-4">
                             <Button 
-                              onClick={() => window.open('https://wa.me/5511940326215', '_blank')}
+                              onClick={() => window.open('https://wa.me/5511949085164', '_blank')}
                               className="bg-primary text-primary-foreground hover:bg-accent"
                             >
                               Solicitar Orçamento

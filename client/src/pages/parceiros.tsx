@@ -147,7 +147,7 @@ export default function Parceiros() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
-                  href="https://wa.me/5511940326215?text=Olá! Gostaria de saber mais sobre oportunidades de parceria com a MRX do Brasil." 
+                  href="https://wa.me/5511949085164?text=Olá! Gostaria de saber mais sobre oportunidades de parceria com a MRX do Brasil." 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-primary text-primary-foreground px-8 py-4 rounded-lg font-semibold hover:bg-accent transition-colors inline-flex items-center justify-center"

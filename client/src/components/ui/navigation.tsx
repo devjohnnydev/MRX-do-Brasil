@@ -98,7 +98,7 @@ export default function Navigation() {
         
         <div className="flex items-center space-x-4">
           <a 
-            href="https://wa.me/5511940326215" 
+            href="https://wa.me/5511949085164" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-primary text-primary-foreground px-4 py-2 rounded-lg ripple hover:bg-accent transition-colors"
